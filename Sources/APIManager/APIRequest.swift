@@ -40,6 +40,7 @@ public protocol APIRequest {
     var queryFieldsArray: [QueryField]? { get }
 }
 
+@available(macOS 10.14, *)
 public extension APIRequest {
     var encoding: ParameterEncoding { return URLEncoding.default }
    
