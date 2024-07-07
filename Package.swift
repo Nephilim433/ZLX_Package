@@ -25,7 +25,8 @@ let package = Package(
                 .product(name: "RxCocoa", package: "RxSwift"), 
                  "Alamofire",
                 "Cache"
-            ]
+            ],
+            path: "Sources/APIManager"
         ),
         .target(
             name: "DownloadsManager",
