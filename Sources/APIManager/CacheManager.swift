@@ -1,7 +1,7 @@
 import Foundation
 import Cache
 
-class CacheManager {
+public class CacheManager {
     // MARK: - Properties
 
     public static let shared = CacheManager()
